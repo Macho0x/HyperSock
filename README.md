@@ -366,7 +366,7 @@ main :: proc() {
 ```
 HyperSock/
 ├── src/
-│   ├── http/
+│   ├── hypersock_http/
 │   │   ├── http.odin           # Core HTTP types (Request, Response, Header, URI)
 │   │   ├── client.odin         # HTTP client (Client, HostClient, do_request)
 │   │   ├── client_advanced.odin # Redirects, retries, cookies, cookie jar
@@ -375,7 +375,7 @@ HyperSock/
 │   │   ├── tls.odin            # TLS implementation (TLS_Config, TLS_Socket)
 │   │   └── tls_openssl.odin    # OpenSSL foreign bindings
 │   │
-│   └── websocket/
+│   └── hypersock_websocket/
 │       ├── websocket.odin      # Core WebSocket types (Conn, Opcode, close codes)
 │       ├── conn.odin           # Connection management (new_conn, read/write, close)
 │       ├── client.odin         # WebSocket client (dial, Dialer)
