@@ -1,0 +1,32 @@
+# Odin build artifacts
+*.exe
+*.obj
+*.o
+*.lib
+*.a
+*.so
+*.dll
+*.dylib
+*.ll
+*.bc
+
+# Build directories
+build/
+bin/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
