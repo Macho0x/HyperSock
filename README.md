@@ -1,4 +1,6 @@
-<image-card alt="Hypersock" src="Hypersock.png" ></image-card>
+<div align="center">
+  <img src="Hypersock.png" alt="Hypersock" width="600">
+</div>
 
 # HyperSock - HTTP and WebSocket Modules for Odin
 
